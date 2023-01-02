@@ -33,7 +33,7 @@ const CampaignDetails = () => {
     await donate(state.pId, amount);
 
     setIsLoading(false);
-    navigate("/");
+    navigate("/Crowd-Funding");
   };
 
   return (

@@ -28,7 +28,7 @@ const CreateCampaign = () => {
         setIsLoading(true);
         await createCampaign({...form,target:ethers.utils.parseUnits(form.target,18)});
         setIsLoading(false);
-        navigate('/');
+        navigate('/Crowd-Funding');
       } else{
         alert('Please provide a valid image url...')
         setForm({...form,image:' '});

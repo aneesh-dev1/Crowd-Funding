@@ -16,10 +16,10 @@ const App = () => {
         <div className='flex-1 max-sm:w-full max-w-[1280px] mx-auto sm:pr-5'>
             <Navbar/>
             <Routes>
-              <Route path='/' element={<Home/>}/>
-              <Route path='/create-campaign' element={<CreateCampaign/>}/>
-              <Route path='/profile' element={<Profile/>}/>
-              <Route path='/campaign-details/:id' element={<CampaignDetails/>}/>
+              <Route path='/Crowd-Funding/' element={<Home/>}/>
+              <Route path='/Crowd-Funding/create-campaign' element={<CreateCampaign/>}/>
+              <Route path='/Crowd-Funding/profile' element={<Profile/>}/>
+              <Route path='/Crowd-Funding/campaign-details/:id' element={<CampaignDetails/>}/>
             </Routes>
         </div>  
     </div>
