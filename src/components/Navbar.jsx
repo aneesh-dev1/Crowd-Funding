@@ -77,7 +77,7 @@ const Navbar = () => {
                 onClick={() => {
                   setIsActive(link.name);
                   setToggleDrawere(false);
-                  navigate(`/Crowd-Funding/${link.name}`);
+                  navigate(`/Crowd-Funding/${link.link}`);
                 }}
               >
                 <img
